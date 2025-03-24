@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 
 public class ParametrizedTests extends TestBase {
 
-    TextBoxPage textBoxPage = new TextBoxPage();
+    final TextBoxPage textBoxPage = new TextBoxPage();
 
     // Параметризированный тест с использованием ValueSource
 
